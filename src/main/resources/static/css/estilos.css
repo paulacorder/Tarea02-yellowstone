@@ -1,0 +1,108 @@
+body{
+    width: 900px;
+    margin: auto;
+    background-color:  beige;
+    
+}
+
+h1{
+    background-color:  #666600;
+    color: white;
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.menuSuperior{
+    font-size:  x-large;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+table.centrar{
+    margin: auto;
+    
+}
+.form-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Ajuste de espacio entre el formulario y otros elementos */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.required {
+    color: red;
+    margin-left: 4px;
+}
+
+button {
+    background-color:  #cc9900;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+                
+        }
+        .item{
+            margin: 10px;
+            text-align: center;
+        }
+        .item img{
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        
+.contact-info {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px; 
+        }
+
+        .contact-info h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
